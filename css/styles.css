@@ -1,3 +1,28 @@
 a {
-  color: #FF0000; /* red */
+    color: #FF0000;
+    /* red */
+}
+
+.experiment {
+	position: relative;
+    border: 10px dashed #000000;
+    color: #FFFFFF;
+    font-size: 20px
+    height: 200px;
+}
+.green-box {
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	background: green;
+	height: 100px;
+	width: 100px;
+}
+.blue-box {
+	position: absolute;
+	left: 200px;
+	top: 20px;
+	background: blue;
+	height: 100px;
+	width: 100px;
 }
